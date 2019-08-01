@@ -1,0 +1,7 @@
+node
+{
+	stage "Build-test-romesh"
+	{
+		sh "ls -la"
+	}
+}
