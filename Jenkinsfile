@@ -6,6 +6,7 @@ pipeline {
                 sh 'python --version'
                 sh 'ip a'
             }
+        }
         stage('test') {
             steps {
                 sh 'ec2metadata'
